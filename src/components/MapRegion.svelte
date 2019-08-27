@@ -1,20 +1,18 @@
 <script>
+  import {draw} from "svelte/transition";
+
   export let name;
   export let svgPath;
+  export let hasParentSvg = true;
+  export let fillColour = "#333";
 
-  const defaultFillColour = "#333";
+  let startingFillColour = "#fff";
+  let startingStrokeColour = "#333"
 </script>
 
 <style>
   .map-region {
-    transition: transform 0.2s ease-in;
-
-    fill-opacity: 1;
-    stroke: white;
-    stroke-opacity: 1;
-    stroke-width: 0.5;
-
-    transform: scale(0.7);
+    transition: all 0.2s ease-in;
   }
 
   .map-region:hover {
@@ -23,8 +21,12 @@
 </style>
 
 <path
-      class="map-region"
-      id={name}
-      fill={defaultFillColour}
-      d={svgPath}
-      title={name} />
+    transition:draw="{{duration: 1000}}"
+    on:introend={() => {startingFillColour = fillColour; startingStrokeColour = "#fff"}}
+    on:click
+    class="map-region"
+    id={name}
+    stroke={startingStrokeColour}
+    fill={startingFillColour}
+    d={svgPath}
+    title={name} />
