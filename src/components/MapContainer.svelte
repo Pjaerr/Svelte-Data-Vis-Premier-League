@@ -15,19 +15,12 @@
 
 <style>
   .regions {
-    transform: scale(0.8);
-  }
-
-  .map-container {
-    display: flex;
-    justify-content: center;
+    transform: scale(0.75);
   }
 </style>
 
-<div class="map-container">
-  <svg {width} {height} bind:this={svg}>
-    <g class="regions">
-      <slot/>
-    </g>
-  </svg>
-</div>
+<svg {width} {height} bind:this={svg}>
+  <g class="regions">
+    <slot/>
+  </g>
+</svg>

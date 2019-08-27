@@ -9,8 +9,38 @@
   }
 </script>
 
-<MapContainer>
-  {#each regions as { name, svgPath }}
-    <MapRegion {name} {svgPath} fillColour={getRandomColour()} on:click="{() => console.log(name)}"/>
-  {/each}
-</MapContainer>
+<style>
+  .page-container {
+    display: flex;
+
+  }
+
+  .info-container {
+    padding-top: 20px;
+    padding-left: 40px;
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .map-container {
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+  }
+</style>
+
+<div class="page-container">
+<div class="info-container">
+<h1>Map Map Test</h1>
+<p>Minim sit ex minim labore mollit amet pariatur ad magna. Excepteur consectetur cillum incididunt enim ipsum anim in minim est laboris. Elit sit enim sint est deserunt. Consequat elit cillum commodo dolore excepteur magna veniam in. Consectetur ut nulla cupidatat do minim officia tempor labore veniam excepteur est fugiat deserunt ullamco. Qui ut pariatur do ex eu enim eiusmod reprehenderit duis.</p>
+</div>
+  <div class="map-container">
+    <MapContainer>
+      {#each regions as { name, svgPath }}
+        <MapRegion {name} {svgPath} fillColour={getRandomColour()} on:click="{() => console.log(name)}"/>
+      {/each}
+    </MapContainer>
+  </div>
+</div>

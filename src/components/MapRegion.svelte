@@ -16,13 +16,14 @@
   }
 
   .map-region:hover {
-    fill: red;
+    fill: #333;
+    stroke: #fff;
   }
 </style>
 
 <path
     transition:draw="{{duration: 1000}}"
-    on:introend={() => {startingFillColour = fillColour; startingStrokeColour = "#fff"}}
+    on:introend={() => {startingFillColour = fillColour}}
     on:click
     class="map-region"
     id={name}
