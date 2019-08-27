@@ -1,35 +1,30 @@
 <script>
   export let name;
-  export let colour;
-  export let width;
-  export let height;
-  export let posX;
-  export let posY;
   export let svgPath;
+
+  const defaultFillColour = "#333";
 </script>
 
 <style>
   .map-region {
-    position: absolute;
-  }
-
-  .map-region > svg {
     transition: transform 0.2s ease-in;
+
+    fill-opacity: 1;
+    stroke: white;
+    stroke-opacity: 1;
+    stroke-width: 0.5;
+
+    transform: scale(0.7);
   }
 
-  .map-region > svg:hover {
-    transform: scale(1.5);
+  .map-region:hover {
+    fill: red;
   }
 </style>
 
-<div class="map-region" style="left:{posX}%; top:{posY}%;">
-  <svg
-    class="map-region-svg"
-    width="{width}px"
-    height="{height}px"
-    viewBox="0 0 {width}
-    {height}"
-    xmlns="http://www.w3.org/2000/svg">
-    <path fill={colour} d={svgPath} transform="translate({width * 0.5})" />
-  </svg>
-</div>
+<path
+      class="map-region"
+      id={name}
+      fill={defaultFillColour}
+      d={svgPath}
+      title={name} />
