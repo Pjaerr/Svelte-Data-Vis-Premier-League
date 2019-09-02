@@ -66,5 +66,29 @@ export default [
   {
     name: "Lee Sharpe",
     regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
+  },
+  {
+    name: "Roy Keane",
+    regions: ["Ireland"]
+  },
+  {
+    name: "Gary Walsh",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Lee Martin",
+    regions: ["Cheshire"]
+  },
+  {
+    name: "Colin Mckee",
+    regions: ["Scotland"]
+  },
+  {
+    name: "Gary Neville",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Ben Thornley",
+    regions: ["Lancashire", "Cheshire"]
   }
 ];
