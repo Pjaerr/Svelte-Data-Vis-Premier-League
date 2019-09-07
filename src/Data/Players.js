@@ -522,5 +522,21 @@ export default [
   {
     name: "James Milner",
     regions: ["Yorkshire"]
+  },
+  {
+    name: "Tom Cleverley",
+    regions: ["Hampshire"]
+  },
+  {
+    name: "Ashley Young",
+    regions: ["Hertfordshire"]
+  },
+  {
+    name: "Phil Jones",
+    regions: ["Lancashire"]
+  },
+  {
+    name: "Nick Powell",
+    regions: ["Cheshire"]
   }
 ];

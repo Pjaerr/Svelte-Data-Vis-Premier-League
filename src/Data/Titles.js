@@ -2184,5 +2184,112 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2012/2013",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Robin van Persie",
+        appearances: 38
+      },
+      {
+        name: "Michael Carrick",
+        appearances: 36
+      },
+      {
+        name: "Patrice Evra",
+        appearances: 34
+      },
+      {
+        name: "Antonio Valencia",
+        appearances: 30
+      },
+      {
+        name: "De Gea",
+        appearances: 28
+      },
+      {
+        name: "Rio Ferdinand",
+        appearances: 28
+      },
+      {
+        name: "Rafael",
+        appearances: 28
+      },
+      {
+        name: "Wayne Rooney",
+        appearances: 27
+      },
+      {
+        name: "Danny Welbeck",
+        appearances: 27
+      },
+      {
+        name: "Jonny Evans",
+        appearances: 23
+      },
+      {
+        name: "Tom Cleverley",
+        appearances: 22
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 22
+      },
+      {
+        name: "Javier Hernández",
+        appearances: 22
+      },
+      {
+        name: "Shinji Kagawa",
+        appearances: 20
+      },
+      {
+        name: "Nemanja Vidić",
+        appearances: 19
+      },
+      {
+        name: "Ashley Young",
+        appearances: 19
+      },
+      {
+        name: "Anderson",
+        appearances: 17
+      },
+      {
+        name: "Phil Jones",
+        appearances: 17
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 16
+      },
+      {
+        name: "Chris Smalling",
+        appearances: 15
+      },
+      {
+        name: "Nani",
+        appearances: 11
+      },
+      {
+        name: "Anders Lindegaard",
+        appearances: 10
+      },
+      {
+        name: "Alexander Büttner",
+        appearances: 5
+      },
+      {
+        name: "Darren Fletcher",
+        appearances: 3
+      },
+      {
+        name: "Nick Powell",
+        appearances: 2
+      }
+    ]
   }
 ];
