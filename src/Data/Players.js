@@ -446,5 +446,17 @@ export default [
   {
     name: "Kieran Lee",
     regions: ["Cheshire"]
+  },
+  {
+    name: "Danny Simpson",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Fraizer Campbell",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Ben Foster",
+    regions: ["Warwickshire"]
   }
 ];
