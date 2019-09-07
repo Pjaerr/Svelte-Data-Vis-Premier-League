@@ -314,5 +314,29 @@ export default [
   {
     name: "David Healy",
     regions: ["Northern Ireland"]
+  },
+  {
+    name: "Sol Campbell",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Ashley Cole",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Richard Wright",
+    regions: ["Suffolk"]
+  },
+  {
+    name: "Tony Adams",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Stuart Taylor",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Francis Jeffers",
+    regions: ["Lancashire", "Cheshire"]
   }
 ];

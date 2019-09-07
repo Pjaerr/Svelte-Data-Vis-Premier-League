@@ -931,5 +931,112 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2001/2002",
+    winner: "Arsenal Fc",
+    players: [
+      {
+        name: "Patrick Vieira",
+        appearances: 36
+      },
+      {
+        name: "Dennis Bergkamp",
+        appearances: 33
+      },
+      {
+        name: "Thierry Henry",
+        appearances: 33
+      },
+      {
+        name: "Sylvain Wiltord",
+        appearances: 32
+      },
+      {
+        name: "Sol Campbell",
+        appearances: 31
+      },
+      {
+        name: "Ashley Cole",
+        appearances: 29
+      },
+      {
+        name: "Robert Pirés",
+        appearances: 28
+      },
+      {
+        name: "Lauren",
+        appearances: 27
+      },
+      {
+        name: "Ray Parlour",
+        appearances: 27
+      },
+      {
+        name: "Gilles Grimandi",
+        appearances: 26
+      },
+      {
+        name: "Freddie Ljungberg",
+        appearances: 25
+      },
+      {
+        name: "Nwankwo Kanu",
+        appearances: 23
+      },
+      {
+        name: "Martin Keown",
+        appearances: 22
+      },
+      {
+        name: "Giovanni van Bronckhorst",
+        appearances: 21
+      },
+      {
+        name: "Oleg Luzhniy",
+        appearances: 18
+      },
+      {
+        name: "David Seaman",
+        appearances: 17
+      },
+      {
+        name: "Edu",
+        appearances: 14
+      },
+      {
+        name: "Matthew Upson",
+        appearances: 14
+      },
+      {
+        name: "Lee Dixon",
+        appearances: 13
+      },
+      {
+        name: "Richard Wright",
+        appearances: 12
+      },
+      {
+        name: "Tony Adams",
+        appearances: 10
+      },
+      {
+        name: "Stuart Taylor",
+        appearances: 10
+      },
+      {
+        name: "Francis Jeffers",
+        appearances: 6
+      },
+      {
+        name: "Igors Stepanovs",
+        appearances: 6
+      },
+      {
+        name: "Jérémie Aliadiére",
+        appearances: 1
+      }
+    ]
   }
 ];
