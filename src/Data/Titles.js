@@ -1038,5 +1038,116 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2002/2003",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Ole Gunnar Solskjær",
+        appearances: 37
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 36
+      },
+      {
+        name: "Mikaël Silvestre",
+        appearances: 34
+      },
+      {
+        name: "Ruud van Nistelrooy",
+        appearances: 34
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 33
+      },
+      {
+        name: "John O'Shea",
+        appearances: 32
+      },
+      {
+        name: "David Beckham",
+        appearances: 31
+      },
+      {
+        name: "Fabien Barthez",
+        appearances: 30
+      },
+      {
+        name: "Rio Ferdinand",
+        appearances: 28
+      },
+      {
+        name: "Gary Neville",
+        appearances: 26
+      },
+      {
+        name: "Diego Forlán",
+        appearances: 25
+      },
+      {
+        name: "Phil Neville",
+        appearances: 25
+      },
+      {
+        name: "Juan Sebastián Verón",
+        appearances: 25
+      },
+      {
+        name: "Wes Brown",
+        appearances: 22
+      },
+      {
+        name: "Roy Keane",
+        appearances: 21
+      },
+      {
+        name: "Laurent Blanc",
+        appearances: 19
+      },
+      {
+        name: "Nicky Butt",
+        appearances: 18
+      },
+      {
+        name: "Roy Carroll",
+        appearances: 10
+      },
+      {
+        name: "Quinton Fortune",
+        appearances: 9
+      },
+      {
+        name: "Kieran Richardson",
+        appearances: 2
+      },
+      {
+        name: "Luke Chadwick",
+        appearances: 1
+      },
+      {
+        name: "David May",
+        appearances: 1
+      },
+      {
+        name: "Danny Pugh",
+        appearances: 1
+      },
+      {
+        name: "Ricardo",
+        appearances: 1
+      },
+      {
+        name: "Lee Roche",
+        appearances: 1
+      },
+      {
+        name: "Michael Stewart",
+        appearances: 1
+      }
+    ]
   }
 ];

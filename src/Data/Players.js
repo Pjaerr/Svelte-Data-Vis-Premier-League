@@ -338,5 +338,29 @@ export default [
   {
     name: "Francis Jeffers",
     regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "John O'Shea",
+    regions: ["Ireland"]
+  },
+  {
+    name: "Rio Ferdinand",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Roy Carroll",
+    regions: ["Northern Ireland"]
+  },
+  {
+    name: "Kieran Richardson",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Danny Pugh",
+    regions: ["Cheshire"]
+  },
+  {
+    name: "Lee Roche",
+    regions: ["Lancashire", "Cheshire"]
   }
 ];
