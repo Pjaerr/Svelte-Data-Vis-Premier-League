@@ -1244,5 +1244,132 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2004/2005",
+    winner: "Chelsea Fc",
+    players: [
+      {
+        name: "Eiður Guðjohnsen",
+        appearances: 38
+      },
+      {
+        name: "Frank Lampard",
+        appearances: 38
+      },
+      {
+        name: "Claude Makélélé",
+        appearances: 36
+      },
+      {
+        name: "John Terry",
+        appearances: 36
+      },
+      {
+        name: "Petr Čech",
+        appearances: 35
+      },
+      {
+        name: "Tiago",
+        appearances: 34
+      },
+      {
+        name: "Damien Duff",
+        appearances: 30
+      },
+      {
+        name: "Paulo Ferreira",
+        appearances: 29
+      },
+      {
+        name: "Joe Cole",
+        appearances: 28
+      },
+      {
+        name: "William Gallas",
+        appearances: 28
+      },
+      {
+        name: "Didier Drogba",
+        appearances: 26
+      },
+      {
+        name: "Mateja Kežman",
+        appearances: 25
+      },
+      {
+        name: "Ricardo Carvalho",
+        appearances: 25
+      },
+      {
+        name: "Arjen Robben",
+        appearances: 18
+      },
+      {
+        name: "Glen Johnson",
+        appearances: 16
+      },
+      {
+        name: "Aleksey Smertin",
+        appearances: 16
+      },
+      {
+        name: "Wayne Bridge",
+        appearances: 15
+      },
+      {
+        name: "Jiří Jarošík",
+        appearances: 14
+      },
+      {
+        name: "Geremi",
+        appearances: 13
+      },
+      {
+        name: "Robert Huth",
+        appearances: 10
+      },
+      {
+        name: "Celestine Babayaro",
+        appearances: 4
+      },
+      {
+        name: "Scott Parker",
+        appearances: 4
+      },
+      {
+        name: "Carlo Cudicini",
+        appearances: 3
+      },
+      {
+        name: "Adrian Mutu",
+        appearances: 2
+      },
+      {
+        name: "Nuno Morais",
+        appearances: 2
+      },
+      {
+        name: "Filipe Oliveira",
+        appearances: 1
+      },
+      {
+        name: "Mikael Forssell",
+        appearances: 1
+      },
+      {
+        name: "Anthony Grant",
+        appearances: 1
+      },
+      {
+        name: "Lenny Pidgeley",
+        appearances: 1
+      },
+      {
+        name: "Steven Watt",
+        appearances: 1
+      }
+    ]
   }
 ];

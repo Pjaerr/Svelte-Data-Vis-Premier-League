@@ -370,5 +370,45 @@ export default [
   {
     name: "Justin Hoyte",
     regions: ["Greater London"]
+  },
+  {
+    name: "Frank Lampard",
+    regions: ["Greater London"]
+  },
+  {
+    name: "John Terry",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Damien Duff",
+    regions: ["Ireland"]
+  },
+  {
+    name: "Joe Cole",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Glen Johnson",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Wayne Bridge",
+    regions: ["Hampshire"]
+  },
+  {
+    name: "Scott Parker",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Anthony Grant",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Lenny Pidgeley",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Steven Watt",
+    regions: ["Scotland"]
   }
 ];
