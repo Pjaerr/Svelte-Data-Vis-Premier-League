@@ -90,5 +90,77 @@ export default [
   {
     name: "Ben Thornley",
     regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Alan Shearer",
+    regions: ["Northumberland"]
+  },
+  {
+    name: "Chris Sutton",
+    regions: ["Nottinghamshire"]
+  },
+  {
+    name: "Tim Flowers",
+    regions: ["Warwickshire"]
+  },
+  {
+    name: "Colin Hendry",
+    regions: ["Scotland"]
+  },
+  {
+    name: "Tim Sherwood",
+    regions: ["Hertfordshire"]
+  },
+  {
+    name: "Stuart Ripley",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Mark Atkins",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Ian Pearce",
+    regions: ["Suffolk"]
+  },
+  {
+    name: "Paul Warhurst",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Jason Wilcox",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Robbie Slater",
+    regions: ["Lancashire"]
+  },
+  {
+    name: "Tony Gale",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Mike Newell",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Jeff Kenna",
+    regions: ["Ireland"]
+  },
+  {
+    name: "David Batty",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Alan Wright",
+    regions: ["Lancashire"]
+  },
+  {
+    name: "Bobby Mimms",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Kevin Gallacher",
+    regions: ["Scotland"]
   }
 ];

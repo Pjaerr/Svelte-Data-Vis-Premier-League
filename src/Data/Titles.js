@@ -182,5 +182,96 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "1994/1995",
+    winner: "Blackburn Rovers",
+    players: [
+      {
+        name: "Alan Shearer",
+        appearances: 42
+      },
+      {
+        name: "Henning Berg",
+        appearances: 40
+      },
+      {
+        name: "Chris Sutton",
+        appearances: 40
+      },
+      {
+        name: "Tim Flowers",
+        appearances: 39
+      },
+      {
+        name: "Graeme Le Saux",
+        appearances: 39
+      },
+      {
+        name: "Colin Hendry",
+        appearances: 38
+      },
+      {
+        name: "Tim Sherwood",
+        appearances: 38
+      },
+      {
+        name: "Stuart Ripley",
+        appearances: 37
+      },
+      {
+        name: "Mark Atkins",
+        appearances: 34
+      },
+      {
+        name: "Ian Pearce",
+        appearances: 28
+      },
+      {
+        name: "Paul Warhurst",
+        appearances: 27
+      },
+      {
+        name: "Jason Wilcox",
+        appearances: 27
+      },
+      {
+        name: "Robbie Slater",
+        appearances: 18
+      },
+      {
+        name: "Tony Gale",
+        appearances: 15
+      },
+      {
+        name: "Mike Newell",
+        appearances: 12
+      },
+      {
+        name: "Jeff Kenna",
+        appearances: 9
+      },
+      {
+        name: "David Batty",
+        appearances: 5
+      },
+      {
+        name: "Alan Wright",
+        appearances: 5
+      },
+      {
+        name: "Bobby Mimms",
+        appearances: 4
+      },
+      {
+        name: "Kevin Gallacher",
+        appearances: 1
+      },
+      {
+        name: "Richard Witschge",
+        appearances: 1
+      }
+    ]
   }
 ];
