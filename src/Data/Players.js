@@ -422,5 +422,29 @@ export default [
   {
     name: "Jimmy Smith",
     regions: ["Greater London"]
+  },
+  {
+    name: "Wayne Rooney",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Michael Carrick",
+    regions: ["Northumberland"]
+  },
+  {
+    name: "Darren Fletcher",
+    regions: ["Scotland"]
+  },
+  {
+    name: "Alan Smith",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Chris Eagles",
+    regions: ["Hertfordshire"]
+  },
+  {
+    name: "Kieran Lee",
+    regions: ["Cheshire"]
   }
 ];

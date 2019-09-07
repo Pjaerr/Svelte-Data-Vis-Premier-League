@@ -1478,5 +1478,112 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2006/2007",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Wayne Rooney",
+        appearances: 35
+      },
+      {
+        name: "Cristiano Ronaldo",
+        appearances: 34
+      },
+      {
+        name: "Michael Carrick",
+        appearances: 33
+      },
+      {
+        name: "Rio Ferdinand",
+        appearances: 33
+      },
+      {
+        name: "John O'Shea",
+        appearances: 32
+      },
+      {
+        name: "Edwin van der Sar",
+        appearances: 32
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 30
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 30
+      },
+      {
+        name: "Nemanja Vidić",
+        appearances: 25
+      },
+      {
+        name: "Patrice Evra",
+        appearances: 24
+      },
+      {
+        name: "Darren Fletcher",
+        appearances: 24
+      },
+      {
+        name: "Gary Neville",
+        appearances: 24
+      },
+      {
+        name: "Louis Saha",
+        appearances: 24
+      },
+      {
+        name: "Wes Brown",
+        appearances: 22
+      },
+      {
+        name: "Gabriel Heinze",
+        appearances: 22
+      },
+      {
+        name: "Ole Gunnar Solskjær",
+        appearances: 19
+      },
+      {
+        name: "Kieran Richardson",
+        appearances: 15
+      },
+      {
+        name: "Ji-Sung Park",
+        appearances: 14
+      },
+      {
+        name: "Mikaël Silvestre",
+        appearances: 14
+      },
+      {
+        name: "Alan Smith",
+        appearances: 9
+      },
+      {
+        name: "Henrik Larsson",
+        appearances: 7
+      },
+      {
+        name: "Tomasz Kuszczak",
+        appearances: 6
+      },
+      {
+        name: "Chris Eagles",
+        appearances: 2
+      },
+      {
+        name: "Fangzhuo Dong",
+        appearances: 1
+      },
+      {
+        name: "Kieran Lee",
+        appearances: 1
+      }
+    ]
   }
 ];
