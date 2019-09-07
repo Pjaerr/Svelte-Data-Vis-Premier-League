@@ -206,5 +206,65 @@ export default [
   {
     name: "Chris Casper",
     regions: ["Lancashire"]
+  },
+  {
+    name: "Nigel Winterburn",
+    regions: ["Warwickshire"]
+  },
+  {
+    name: "Ray Parlour",
+    regions: ["Greater London"]
+  },
+  {
+    name: "David Platt",
+    regions: ["Lancashire"]
+  },
+  {
+    name: "David Seaman",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Lee Dixon",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Tony Adams",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Steve Bould",
+    regions: ["Staffordshire"]
+  },
+  {
+    name: "Ian Wright",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Martin Keown",
+    regions: ["Oxfordshire"]
+  },
+  {
+    name: "Stephen Hughes",
+    regions: ["Berkshire"]
+  },
+  {
+    name: "Matthew Upson",
+    regions: ["Suffolk"]
+  },
+  {
+    name: "Scott Marshall",
+    regions: ["Scotland"]
+  },
+  {
+    name: "Gavin McGowan",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Isaiah Rankin",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Paolo Vernazza",
+    regions: ["Greater London"]
   }
 ];

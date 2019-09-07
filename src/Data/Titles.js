@@ -471,5 +471,116 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "1997/1998",
+    winner: "Arsenal Fc",
+    players: [
+      {
+        name: "Nigel Winterburn",
+        appearances: 36
+      },
+      {
+        name: "Ray Parlour",
+        appearances: 34
+      },
+      {
+        name: "Patrick Vieira",
+        appearances: 33
+      },
+      {
+        name: "Marc Overmars",
+        appearances: 32
+      },
+      {
+        name: "Emmanuel Petit",
+        appearances: 32
+      },
+      {
+        name: "David Platt",
+        appearances: 31
+      },
+      {
+        name: "David Seaman",
+        appearances: 31
+      },
+      {
+        name: "Dennis Bergkamp",
+        appearances: 28
+      },
+      {
+        name: "Lee Dixon",
+        appearances: 28
+      },
+      {
+        name: "Tony Adams",
+        appearances: 26
+      },
+      {
+        name: "Nicolas Anelka",
+        appearances: 26
+      },
+      {
+        name: "Steve Bould",
+        appearances: 24
+      },
+      {
+        name: "Ian Wright",
+        appearances: 24
+      },
+      {
+        name: "Gilles Grimandi",
+        appearances: 22
+      },
+      {
+        name: "Martin Keown",
+        appearances: 18
+      },
+      {
+        name: "Stephen Hughes",
+        appearances: 16
+      },
+      {
+        name: "Christopher Wreh",
+        appearances: 16
+      },
+      {
+        name: "Boa Morte",
+        appearances: 15
+      },
+      {
+        name: "Rémi Garde",
+        appearances: 10
+      },
+      {
+        name: "Alexander Manninger",
+        appearances: 7
+      },
+      {
+        name: "Matthew Upson",
+        appearances: 5
+      },
+      {
+        name: "Alberto Méndez",
+        appearances: 3
+      },
+      {
+        name: "Scott Marshall",
+        appearances: 3
+      },
+      {
+        name: "Gavin McGowan",
+        appearances: 1
+      },
+      {
+        name: "Isaiah Rankin",
+        appearances: 1
+      },
+      {
+        name: "Paolo Vernazza",
+        appearances: 1
+      }
+    ]
   }
 ];
