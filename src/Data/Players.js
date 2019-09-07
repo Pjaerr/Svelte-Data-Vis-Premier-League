@@ -582,5 +582,9 @@ export default [
   {
     name: "Demarai Gray",
     regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
+  },
+  {
+    name: "Ola Aina",
+    regions: ["Greater London"]
   }
 ];

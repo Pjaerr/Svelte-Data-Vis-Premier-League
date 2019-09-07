@@ -2596,5 +2596,108 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2016/2017",
+    winner: "Chelsea Fc",
+    players: [
+      {
+        name: "Azpilicueta",
+        appearances: 38
+      },
+      {
+        name: "Gary Cahill",
+        appearances: 37
+      },
+      {
+        name: "Thibaut Courtois",
+        appearances: 36
+      },
+      {
+        name: "Eden Hazard",
+        appearances: 36
+      },
+      {
+        name: "Diego Costa",
+        appearances: 35
+      },
+      {
+        name: "N'Golo Kanté",
+        appearances: 35
+      },
+      {
+        name: "Nemanja Matić",
+        appearances: 35
+      },
+      {
+        name: "Pedro",
+        appearances: 35
+      },
+      {
+        name: "Victor Moses",
+        appearances: 34
+      },
+      {
+        name: "Willian",
+        appearances: 34
+      },
+      {
+        name: "David Luiz",
+        appearances: 33
+      },
+      {
+        name: "Marcos Alonso",
+        appearances: 31
+      },
+      {
+        name: "Cesc Fàbregas",
+        appearances: 29
+      },
+      {
+        name: "Michy Batshuayi",
+        appearances: 20
+      },
+      {
+        name: "Branislav Ivanović",
+        appearances: 13
+      },
+      {
+        name: "Nathaniel Chalobah",
+        appearances: 10
+      },
+      {
+        name: "Oscar",
+        appearances: 9
+      },
+      {
+        name: "John Terry",
+        appearances: 9
+      },
+      {
+        name: "Kurt Zouma",
+        appearances: 9
+      },
+      {
+        name: "Ruben Loftus-Cheek",
+        appearances: 6
+      },
+      {
+        name: "Ola Aina",
+        appearances: 3
+      },
+      {
+        name: "Nathan Aké",
+        appearances: 2
+      },
+      {
+        name: "Asmir Begović",
+        appearances: 2
+      },
+      {
+        name: "Kenedy",
+        appearances: 1
+      }
+    ]
   }
 ];
