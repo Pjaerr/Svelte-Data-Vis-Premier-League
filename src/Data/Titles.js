@@ -685,5 +685,128 @@ export default [
         appearances: 2
       }
     ]
+  },
+
+  {
+    season: "1999/2000",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Jaap Stam",
+        appearances: 33
+      },
+      {
+        name: "Nicky Butt",
+        appearances: 32
+      },
+      {
+        name: "Dwight Yorke",
+        appearances: 32
+      },
+      {
+        name: "David Beckham",
+        appearances: 31
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 31
+      },
+      {
+        name: "Mikaël Silvestre",
+        appearances: 31
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 30
+      },
+      {
+        name: "Roy Keane",
+        appearances: 29
+      },
+      {
+        name: "Phil Neville",
+        appearances: 29
+      },
+      {
+        name: "Andy Cole",
+        appearances: 28
+      },
+      {
+        name: "Ole Gunnar Solskjær",
+        appearances: 28
+      },
+      {
+        name: "Teddy Sheringham",
+        appearances: 27
+      },
+      {
+        name: "Denis Irwin",
+        appearances: 25
+      },
+      {
+        name: "Mark Bosnich",
+        appearances: 23
+      },
+      {
+        name: "Henning Berg",
+        appearances: 22
+      },
+      {
+        name: "Gary Neville",
+        appearances: 22
+      },
+      {
+        name: "Raimond van der Gouw",
+        appearances: 14
+      },
+      {
+        name: "Jordi Cruyff",
+        appearances: 8
+      },
+      {
+        name: "Quinton Fortune",
+        appearances: 6
+      },
+      {
+        name: "Ronnie Wallwork",
+        appearances: 5
+      },
+      {
+        name: "Jonathan Greening",
+        appearances: 4
+      },
+      {
+        name: "Massimo Taibi",
+        appearances: 4
+      },
+      {
+        name: "Danny Higginbotham",
+        appearances: 3
+      },
+      {
+        name: "Ronny Johnsen",
+        appearances: 3
+      },
+      {
+        name: "Mark Wilson",
+        appearances: 3
+      },
+      {
+        name: "Michael Clegg",
+        appearances: 2
+      },
+      {
+        name: "Nick Culkin",
+        appearances: 1
+      },
+      {
+        name: "John Curtis",
+        appearances: 1
+      },
+      {
+        name: "David May",
+        appearances: 1
+      }
+    ]
   }
 ];

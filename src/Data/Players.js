@@ -282,5 +282,21 @@ export default [
   {
     name: "Jonathan Greening",
     regions: ["Scarborough"]
+  },
+  {
+    name: "Ronnie Wallwork",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Danny Higginbotham",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Mark Wilson",
+    regions: ["Ireland"]
+  },
+  {
+    name: "Nick Culkin",
+    regions: ["Yorkshire"]
   }
 ];
