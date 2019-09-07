@@ -478,5 +478,17 @@ export default [
   {
     name: "Lee Martin",
     regions: ["Somerset"]
+  },
+  {
+    name: "Daniel Sturridge",
+    regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
+  },
+  {
+    name: "Sam Hutchinson",
+    regions: ["Berkshire"]
+  },
+  {
+    name: "Ross Turnbull",
+    regions: ["Durham"]
   }
 ];

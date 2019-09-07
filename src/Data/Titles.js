@@ -1831,5 +1831,132 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2009/2010",
+    winner: "Chelsea Fc",
+    players: [
+      {
+        name: "John Terry",
+        appearances: 37
+      },
+      {
+        name: "Frank Lampard",
+        appearances: 36
+      },
+      {
+        name: "Petr Čech",
+        appearances: 34
+      },
+      {
+        name: "Nicolas Anelka",
+        appearances: 33
+      },
+      {
+        name: "Florent Malouda",
+        appearances: 33
+      },
+      {
+        name: "Michael Ballack",
+        appearances: 32
+      },
+      {
+        name: "Didier Drogba",
+        appearances: 32
+      },
+      {
+        name: "Branislav Ivanović",
+        appearances: 28
+      },
+      {
+        name: "Ashley Cole",
+        appearances: 27
+      },
+      {
+        name: "Joe Cole",
+        appearances: 26
+      },
+      {
+        name: "John Mikel",
+        appearances: 25
+      },
+      {
+        name: "Salomon Kalou",
+        appearances: 23
+      },
+      {
+        name: "Ricardo Carvalho",
+        appearances: 23
+      },
+      {
+        name: "Deco",
+        appearances: 19
+      },
+      {
+        name: "Yuriy Zhirkov",
+        appearances: 17
+      },
+      {
+        name: "Alex",
+        appearances: 16
+      },
+      {
+        name: "Michael Essien",
+        appearances: 14
+      },
+      {
+        name: "Daniel Sturridge",
+        appearances: 13
+      },
+      {
+        name: "Paulo Ferreira",
+        appearances: 12
+      },
+      {
+        name: "Belletti",
+        appearances: 11
+      },
+      {
+        name: "Bosingwa",
+        appearances: 8
+      },
+      {
+        name: "Fabio Borini",
+        appearances: 4
+      },
+      {
+        name: "Hilário",
+        appearances: 3
+      },
+      {
+        name: "Jeffrey Bruma",
+        appearances: 2
+      },
+      {
+        name: "Sam Hutchinson",
+        appearances: 2
+      },
+      {
+        name: "Nemanja Matić",
+        appearances: 2
+      },
+      {
+        name: "Ross Turnbull",
+        appearances: 2
+      },
+      {
+        name: "Patrick van Aanholt",
+        appearances: 2
+      },
+      {
+        name: "Gaël Kakuta",
+        appearances: 1
+      },
+      {
+        name: "Andriy Shevchenko",
+        appearances: 1
+      }
+    ]
   }
 ];
