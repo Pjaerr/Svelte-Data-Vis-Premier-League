@@ -554,5 +554,33 @@ export default [
   {
     name: "Izzy Brown",
     regions: ["Cambridgeshire"]
+  },
+  {
+    name: "Marc Albrighton",
+    regions: ["Staffordshire"]
+  },
+  {
+    name: "Wes Morgan",
+    regions: ["Nottinghamshire"]
+  },
+  {
+    name: "Jamie Vardy",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Danny Drinkwater",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Andy King",
+    regions: ["Wales"]
+  },
+  {
+    name: "Nathan Dyer",
+    regions: ["Wiltshire"]
+  },
+  {
+    name: "Demarai Gray",
+    regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
   }
 ];

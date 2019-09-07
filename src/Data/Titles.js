@@ -2497,5 +2497,104 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2015/2016",
+    winner: "Leicester City",
+    players: [
+      {
+        name: "Marc Albrighton",
+        appearances: 38
+      },
+      {
+        name: "Wes Morgan",
+        appearances: 38
+      },
+      {
+        name: "Kasper Schmeichel",
+        appearances: 38
+      },
+      {
+        name: "N'Golo Kanté",
+        appearances: 37
+      },
+      {
+        name: "Riyad Mahrez",
+        appearances: 37
+      },
+      {
+        name: "Shinji Okazaki",
+        appearances: 36
+      },
+      {
+        name: "Jamie Vardy",
+        appearances: 36
+      },
+      {
+        name: "Danny Drinkwater",
+        appearances: 35
+      },
+      {
+        name: "Robert Huth",
+        appearances: 35
+      },
+      {
+        name: "Christian Fuchs",
+        appearances: 32
+      },
+      {
+        name: "Danny Simpson",
+        appearances: 30
+      },
+      {
+        name: "Leonardo Ulloa",
+        appearances: 29
+      },
+      {
+        name: "Andy King",
+        appearances: 25
+      },
+      {
+        name: "Jeffrey Schlupp",
+        appearances: 24
+      },
+      {
+        name: "Ritchie De Laet",
+        appearances: 12
+      },
+      {
+        name: "Nathan Dyer",
+        appearances: 12
+      },
+      {
+        name: "Demarai Gray",
+        appearances: 12
+      },
+      {
+        name: "Daniel Amartey",
+        appearances: 5
+      },
+      {
+        name: "Gökhan Inler",
+        appearances: 5
+      },
+      {
+        name: "Yohan Benalouane",
+        appearances: 4
+      },
+      {
+        name: "Marcin Wasilewski",
+        appearances: 4
+      },
+      {
+        name: "Andrej Kramarić",
+        appearances: 2
+      },
+      {
+        name: "Joe Dodoo",
+        appearances: 1
+      }
+    ]
   }
 ];
