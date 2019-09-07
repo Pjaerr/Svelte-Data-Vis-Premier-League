@@ -2291,5 +2291,104 @@ export default [
         appearances: 2
       }
     ]
+  },
+
+  {
+    season: "2013/2014",
+    winner: "Manchester City",
+    players: [
+      {
+        name: "Yaya Touré",
+        appearances: 35
+      },
+      {
+        name: "Pablo Zabaleta",
+        appearances: 35
+      },
+      {
+        name: "Samir Nasri",
+        appearances: 34
+      },
+      {
+        name: "Fernandinho",
+        appearances: 33
+      },
+      {
+        name: "Álvaro Negredo",
+        appearances: 32
+      },
+      {
+        name: "Edin Džeko",
+        appearances: 31
+      },
+      {
+        name: "Joe Hart",
+        appearances: 31
+      },
+      {
+        name: "James Milner",
+        appearances: 31
+      },
+      {
+        name: "Jesús Navas",
+        appearances: 30
+      },
+      {
+        name: "Aleksandar Kolarov",
+        appearances: 30
+      },
+      {
+        name: "Javi García",
+        appearances: 29
+      },
+      {
+        name: "Vincent Kompany",
+        appearances: 28
+      },
+      {
+        name: "David Silva",
+        appearances: 27
+      },
+      {
+        name: "Martín Demichelis",
+        appearances: 27
+      },
+      {
+        name: "Kun Agüero",
+        appearances: 23
+      },
+      {
+        name: "Gaël Clichy",
+        appearances: 20
+      },
+      {
+        name: "Stevan Jovetić",
+        appearances: 13
+      },
+      {
+        name: "Matija Nastasić",
+        appearances: 13
+      },
+      {
+        name: "Joleon Lescott",
+        appearances: 10
+      },
+      {
+        name: "Costel Pantilimon",
+        appearances: 7
+      },
+      {
+        name: "Jack Rodwell",
+        appearances: 5
+      },
+      {
+        name: "Micah Richards",
+        appearances: 2
+      },
+      {
+        name: "Dedryck Boyata",
+        appearances: 1
+      }
+    ]
   }
 ];

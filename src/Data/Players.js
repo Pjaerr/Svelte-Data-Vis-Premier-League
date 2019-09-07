@@ -538,5 +538,9 @@ export default [
   {
     name: "Nick Powell",
     regions: ["Cheshire"]
+  },
+  {
+    name: "Jack Rodwell",
+    regions: ["Lancashire", "Cheshire"]
   }
 ];
