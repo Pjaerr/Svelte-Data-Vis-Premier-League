@@ -372,5 +372,104 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "1996/1997",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "David Beckham",
+        appearances: 36
+      },
+      {
+        name: "Éric Cantona",
+        appearances: 36
+      },
+      {
+        name: "Peter Schmeichel",
+        appearances: 36
+      },
+      {
+        name: "Ole Gunnar Solskjær",
+        appearances: 32
+      },
+      {
+        name: "Denis Irwin",
+        appearances: 31
+      },
+      {
+        name: "Ronny Johnsen",
+        appearances: 31
+      },
+      {
+        name: "Gary Neville",
+        appearances: 31
+      },
+      {
+        name: "David May",
+        appearances: 29
+      },
+      {
+        name: "Gary Pallister",
+        appearances: 27
+      },
+      {
+        name: "Nicky Butt",
+        appearances: 26
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 26
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 24
+      },
+      {
+        name: "Karel Poborský",
+        appearances: 22
+      },
+      {
+        name: "Roy Keane",
+        appearances: 21
+      },
+      {
+        name: "Andy Cole",
+        appearances: 20
+      },
+      {
+        name: "Brian McClair",
+        appearances: 19
+      },
+      {
+        name: "Phil Neville",
+        appearances: 18
+      },
+      {
+        name: "Jordi Cruyff",
+        appearances: 16
+      },
+      {
+        name: "Michael Clegg",
+        appearances: 4
+      },
+      {
+        name: "Chris Casper",
+        appearances: 2
+      },
+      {
+        name: "Ben Thornley",
+        appearances: 2
+      },
+      {
+        name: "Raimond van der Gouw",
+        appearances: 2
+      },
+      {
+        name: "John O'Kane",
+        appearances: 1
+      }
+    ]
   }
 ];

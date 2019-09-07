@@ -198,5 +198,13 @@ export default [
   {
     name: "John O'Kane",
     regions: ["Nottinghamshire"]
+  },
+  {
+    name: "Michael Clegg",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Chris Casper",
+    regions: ["Lancashire"]
   }
 ];
