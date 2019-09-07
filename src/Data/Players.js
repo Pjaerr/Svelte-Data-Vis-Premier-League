@@ -490,5 +490,13 @@ export default [
   {
     name: "Ross Turnbull",
     regions: ["Durham"]
+  },
+  {
+    name: "Chris Smalling",
+    region: ["Greater London"]
+  },
+  {
+    name: "Michael Owen",
+    region: ["Cheshire"]
   }
 ];

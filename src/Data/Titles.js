@@ -1958,5 +1958,128 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2010/2011",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Patrice Evra",
+        appearances: 35
+      },
+      {
+        name: "Nemanja Vidić",
+        appearances: 35
+      },
+      {
+        name: "Nani",
+        appearances: 33
+      },
+      {
+        name: "Edwin van der Sar",
+        appearances: 33
+      },
+      {
+        name: "Dimitar Berbatov",
+        appearances: 32
+      },
+      {
+        name: "Michael Carrick",
+        appearances: 28
+      },
+      {
+        name: "Wayne Rooney",
+        appearances: 28
+      },
+      {
+        name: "Javier Hernández",
+        appearances: 27
+      },
+      {
+        name: "Darren Fletcher",
+        appearances: 26
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 25
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 22
+      },
+      {
+        name: "John O'Shea",
+        appearances: 20
+      },
+      {
+        name: "Rio Ferdinand",
+        appearances: 19
+      },
+      {
+        name: "Anderson",
+        appearances: 18
+      },
+      {
+        name: "Rafael",
+        appearances: 16
+      },
+      {
+        name: "Chris Smalling",
+        appearances: 16
+      },
+      {
+        name: "Ji-Sung Park",
+        appearances: 15
+      },
+      {
+        name: "Jonny Evans",
+        appearances: 13
+      },
+      {
+        name: "Darron Gibson",
+        appearances: 12
+      },
+      {
+        name: "Fábio",
+        appearances: 11
+      },
+      {
+        name: "Michael Owen",
+        appearances: 11
+      },
+      {
+        name: "Antonio Valencia",
+        appearances: 10
+      },
+      {
+        name: "Wes Brown",
+        appearances: 7
+      },
+      {
+        name: "Federico Macheda",
+        appearances: 7
+      },
+      {
+        name: "Gabriel Obertan",
+        appearances: 7
+      },
+      {
+        name: "Tomasz Kuszczak",
+        appearances: 5
+      },
+      {
+        name: "Gary Neville",
+        appearances: 3
+      },
+      {
+        name: "Bebé",
+        appearances: 2
+      },
+      {
+        name: "Owen Hargreaves",
+        appearances: 1
+      }
+    ]
   }
 ];
