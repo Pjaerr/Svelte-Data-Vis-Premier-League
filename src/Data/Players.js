@@ -298,5 +298,21 @@ export default [
   {
     name: "Nick Culkin",
     regions: ["Yorkshire"]
+  },
+  {
+    name: "Luke Chadwick",
+    regions: ["Cambridgeshire"]
+  },
+  {
+    name: "Michael Stewart",
+    regions: ["Scotland"]
+  },
+  {
+    name: "Andy Goram",
+    regions: ["Lancashire"]
+  },
+  {
+    name: "David Healy",
+    regions: ["Northern Ireland"]
   }
 ];

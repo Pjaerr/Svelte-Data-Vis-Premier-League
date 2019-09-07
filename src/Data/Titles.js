@@ -808,5 +808,128 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2000/2001",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Gary Neville",
+        appearances: 32
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 32
+      },
+      {
+        name: "David Beckham",
+        appearances: 31
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 31
+      },
+      {
+        name: "Ole Gunnar Solskjær",
+        appearances: 31
+      },
+      {
+        name: "Fabien Barthez",
+        appearances: 30
+      },
+      {
+        name: "Mikaël Silvestre",
+        appearances: 30
+      },
+      {
+        name: "Phil Neville",
+        appearances: 29
+      },
+      {
+        name: "Teddy Sheringham",
+        appearances: 29
+      },
+      {
+        name: "Wes Brown",
+        appearances: 28
+      },
+      {
+        name: "Nicky Butt",
+        appearances: 28
+      },
+      {
+        name: "Roy Keane",
+        appearances: 28
+      },
+      {
+        name: "Dwight Yorke",
+        appearances: 22
+      },
+      {
+        name: "Denis Irwin",
+        appearances: 21
+      },
+      {
+        name: "Andy Cole",
+        appearances: 19
+      },
+      {
+        name: "Luke Chadwick",
+        appearances: 15
+      },
+      {
+        name: "Jaap Stam",
+        appearances: 15
+      },
+      {
+        name: "Ronnie Wallwork",
+        appearances: 12
+      },
+      {
+        name: "Ronny Johnsen",
+        appearances: 11
+      },
+      {
+        name: "Raimond van der Gouw",
+        appearances: 10
+      },
+      {
+        name: "Quinton Fortune",
+        appearances: 7
+      },
+      {
+        name: "Jonathan Greening",
+        appearances: 7
+      },
+      {
+        name: "Michael Stewart",
+        appearances: 3
+      },
+      {
+        name: "Andy Goram",
+        appearances: 2
+      },
+      {
+        name: "David May",
+        appearances: 2
+      },
+      {
+        name: "Henning Berg",
+        appearances: 1
+      },
+      {
+        name: "Bojan Djordjic",
+        appearances: 1
+      },
+      {
+        name: "David Healy",
+        appearances: 1
+      },
+      {
+        name: "Paul Rachubka",
+        appearances: 1
+      }
+    ]
   }
 ];
