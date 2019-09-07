@@ -273,5 +273,104 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "1995/1996",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Peter Schmeichel",
+        appearances: 36
+      },
+      {
+        name: "Andy Cole",
+        appearances: 34
+      },
+      {
+        name: "David Beckham",
+        appearances: 33
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 33
+      },
+      {
+        name: "Nicky Butt",
+        appearances: 32
+      },
+      {
+        name: "Denis Irwin",
+        appearances: 31
+      },
+      {
+        name: "Gary Neville",
+        appearances: 31
+      },
+      {
+        name: "Lee Sharpe",
+        appearances: 31
+      },
+      {
+        name: "Steve Bruce",
+        appearances: 30
+      },
+      {
+        name: "Éric Cantona",
+        appearances: 30
+      },
+      {
+        name: "Roy Keane",
+        appearances: 29
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 26
+      },
+      {
+        name: "Phil Neville",
+        appearances: 24
+      },
+      {
+        name: "Brian McClair",
+        appearances: 22
+      },
+      {
+        name: "Gary Pallister",
+        appearances: 21
+      },
+      {
+        name: "David May",
+        appearances: 16
+      },
+      {
+        name: "Simon Davies",
+        appearances: 6
+      },
+      {
+        name: "Paul Parker",
+        appearances: 6
+      },
+      {
+        name: "Terry Cooke",
+        appearances: 4
+      },
+      {
+        name: "Kevin Pilkington",
+        appearances: 3
+      },
+      {
+        name: "William Prunier",
+        appearances: 2
+      },
+      {
+        name: "John O'Kane",
+        appearances: 1
+      },
+      {
+        name: "Ben Thornley",
+        appearances: 1
+      }
+    ]
   }
 ];

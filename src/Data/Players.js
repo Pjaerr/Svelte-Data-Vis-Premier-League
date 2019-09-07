@@ -162,5 +162,41 @@ export default [
   {
     name: "Kevin Gallacher",
     regions: ["Scotland"]
+  },
+  {
+    name: "Andy Cole",
+    regions: ["Nottinghamshire"]
+  },
+  {
+    name: "David Beckham",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Paul Scholes",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Phil Neville",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "David May",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Simon Davies",
+    regions: ["Wales"]
+  },
+  {
+    name: "Terry Cooke",
+    regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
+  },
+  {
+    name: "Kevin Pilkington",
+    regions: ["Hertfordshire"]
+  },
+  {
+    name: "John O'Kane",
+    regions: ["Nottinghamshire"]
   }
 ];
