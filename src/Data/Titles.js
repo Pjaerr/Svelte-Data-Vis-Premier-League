@@ -2806,5 +2806,96 @@ export default [
         appearances: 2
       }
     ]
+  },
+
+  {
+    season: "2018/2019",
+    winner: "Manchester City",
+    players: [
+      {
+        name: "Ederson",
+        appearances: 38
+      },
+      {
+        name: "Bernardo Silva",
+        appearances: 36
+      },
+      {
+        name: "Aymeric Laporte",
+        appearances: 35
+      },
+      {
+        name: "Raheem Sterling",
+        appearances: 34
+      },
+      {
+        name: "Kun Agüero",
+        appearances: 33
+      },
+      {
+        name: "David Silva",
+        appearances: 33
+      },
+      {
+        name: "Kyle Walker",
+        appearances: 33
+      },
+      {
+        name: "İlkay Gündoğan",
+        appearances: 31
+      },
+      {
+        name: "Leroy Sané",
+        appearances: 31
+      },
+      {
+        name: "Fernandinho",
+        appearances: 29
+      },
+      {
+        name: "Gabriel Jesus",
+        appearances: 29
+      },
+      {
+        name: "Riyad Mahrez",
+        appearances: 27
+      },
+      {
+        name: "John Stones",
+        appearances: 24
+      },
+      {
+        name: "Kevin De Bruyne",
+        appearances: 19
+      },
+      {
+        name: "Nicolás Otamendi",
+        appearances: 18
+      },
+      {
+        name: "Vincent Kompany",
+        appearances: 17
+      },
+      {
+        name: "Oleksandr Zinchenko",
+        appearances: 14
+      },
+      {
+        name: "Phil Foden",
+        appearances: 13
+      },
+      {
+        name: "Danilo",
+        appearances: 11
+      },
+      {
+        name: "Fabian Delph",
+        appearances: 11
+      },
+      {
+        name: "Benjamin Mendy",
+        appearances: 10
+      }
+    ]
   }
 ];
