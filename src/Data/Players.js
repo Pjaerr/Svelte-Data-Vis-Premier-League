@@ -498,5 +498,29 @@ export default [
   {
     name: "Michael Owen",
     region: ["Cheshire"]
+  },
+  {
+    name: "Joe Hart",
+    region: ["Shropshire"]
+  },
+  {
+    name: "Gareth Barry",
+    region: ["Sussex"]
+  },
+  {
+    name: "Joleon Lescott",
+    region: ["Staffordshire", "Worcestershire", "Warwickshire"]
+  },
+  {
+    name: "Micah Richards",
+    region: ["Staffordshire", "Worcestershire", "Warwickshire"]
+  },
+  {
+    name: "Adam Johnson",
+    regions: ["Northumberland"]
+  },
+  {
+    name: "James Milner",
+    regions: ["Yorkshire"]
   }
 ];

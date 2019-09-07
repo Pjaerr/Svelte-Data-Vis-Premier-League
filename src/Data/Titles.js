@@ -2081,5 +2081,108 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2011/2012",
+    winner: "Manchester City",
+    players: [
+      {
+        name: "Joe Hart",
+        appearances: 38
+      },
+      {
+        name: "David Silva",
+        appearances: 36
+      },
+      {
+        name: "Kun Agüero",
+        appearances: 34
+      },
+      {
+        name: "Gareth Barry",
+        appearances: 34
+      },
+      {
+        name: "Yaya Touré",
+        appearances: 32
+      },
+      {
+        name: "Vincent Kompany",
+        appearances: 31
+      },
+      {
+        name: "Joleon Lescott",
+        appearances: 31
+      },
+      {
+        name: "Edin Džeko",
+        appearances: 30
+      },
+      {
+        name: "Samir Nasri",
+        appearances: 30
+      },
+      {
+        name: "Micah Richards",
+        appearances: 29
+      },
+      {
+        name: "Gaël Clichy",
+        appearances: 28
+      },
+      {
+        name: "Adam Johnson",
+        appearances: 26
+      },
+      {
+        name: "James Milner",
+        appearances: 26
+      },
+      {
+        name: "Mario Balotelli",
+        appearances: 23
+      },
+      {
+        name: "Nigel de Jong",
+        appearances: 21
+      },
+      {
+        name: "Pablo Zabaleta",
+        appearances: 21
+      },
+      {
+        name: "Kolo Touré",
+        appearances: 14
+      },
+      {
+        name: "Carlos Tévez",
+        appearances: 13
+      },
+      {
+        name: "Aleksandar Kolarov",
+        appearances: 12
+      },
+      {
+        name: "Stefan Savić",
+        appearances: 11
+      },
+      {
+        name: "David Pizarro",
+        appearances: 5
+      },
+      {
+        name: "Owen Hargreaves",
+        appearances: 1
+      },
+      {
+        name: "Nedum Onuoha",
+        appearances: 1
+      },
+      {
+        name: "Abdul Razak",
+        appearances: 1
+      }
+    ]
   }
 ];
