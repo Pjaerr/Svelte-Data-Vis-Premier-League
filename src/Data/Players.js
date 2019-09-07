@@ -266,5 +266,21 @@ export default [
   {
     name: "Paolo Vernazza",
     regions: ["Greater London"]
+  },
+  {
+    name: "Teddy Sheringham",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Wes Brown",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "John Curtis",
+    regions: ["Warwickshire"]
+  },
+  {
+    name: "Jonathan Greening",
+    regions: ["Scarborough"]
   }
 ];

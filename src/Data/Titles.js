@@ -582,5 +582,108 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "1998/1999",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Roy Keane",
+        appearances: 35
+      },
+      {
+        name: "David Beckham",
+        appearances: 34
+      },
+      {
+        name: "Peter Schmeichel",
+        appearances: 34
+      },
+      {
+        name: "Andy Cole",
+        appearances: 32
+      },
+      {
+        name: "Gary Neville",
+        appearances: 32
+      },
+      {
+        name: "Dwight Yorke",
+        appearances: 32
+      },
+      {
+        name: "Nicky Butt",
+        appearances: 31
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 31
+      },
+      {
+        name: "Jaap Stam",
+        appearances: 30
+      },
+      {
+        name: "Denis Irwin",
+        appearances: 29
+      },
+      {
+        name: "Phil Neville",
+        appearances: 28
+      },
+      {
+        name: "Jesper Blomqvist",
+        appearances: 25
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 24
+      },
+      {
+        name: "Ronny Johnsen",
+        appearances: 22
+      },
+      {
+        name: "Ole Gunnar Solskjær",
+        appearances: 19
+      },
+      {
+        name: "Teddy Sheringham",
+        appearances: 17
+      },
+      {
+        name: "Henning Berg",
+        appearances: 16
+      },
+      {
+        name: "Wes Brown",
+        appearances: 14
+      },
+      {
+        name: "David May",
+        appearances: 6
+      },
+      {
+        name: "Jordi Cruyff",
+        appearances: 5
+      },
+      {
+        name: "Raimond van der Gouw",
+        appearances: 5
+      },
+      {
+        name: "John Curtis",
+        appearances: 4
+      },
+      {
+        name: "Jonathan Greening",
+        appearances: 3
+      },
+      {
+        name: "Erik Nevland",
+        appearances: 2
+      }
+    ]
   }
 ];
