@@ -1149,5 +1149,100 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2003/2004",
+    winner: "Arsenal Fc",
+    players: [
+      {
+        name: "Jens Lehmann",
+        appearances: 38
+      },
+      {
+        name: "Thierry Henry",
+        appearances: 37
+      },
+      {
+        name: "Kolo Touré",
+        appearances: 37
+      },
+      {
+        name: "Robert Pirés",
+        appearances: 36
+      },
+      {
+        name: "Sol Campbell",
+        appearances: 35
+      },
+      {
+        name: "Ashley Cole",
+        appearances: 32
+      },
+      {
+        name: "Gilberto Silva",
+        appearances: 32
+      },
+      {
+        name: "Lauren",
+        appearances: 32
+      },
+      {
+        name: "Edu",
+        appearances: 30
+      },
+      {
+        name: "Freddie Ljungberg",
+        appearances: 30
+      },
+      {
+        name: "Patrick Vieira",
+        appearances: 29
+      },
+      {
+        name: "Dennis Bergkamp",
+        appearances: 28
+      },
+      {
+        name: "Ray Parlour",
+        appearances: 25
+      },
+      {
+        name: "Pascal Cygan",
+        appearances: 18
+      },
+      {
+        name: "Reyes",
+        appearances: 13
+      },
+      {
+        name: "Gaël Clichy",
+        appearances: 12
+      },
+      {
+        name: "Sylvain Wiltord",
+        appearances: 12
+      },
+      {
+        name: "Jérémie Aliadiére",
+        appearances: 10
+      },
+      {
+        name: "Nwankwo Kanu",
+        appearances: 10
+      },
+      {
+        name: "Martin Keown",
+        appearances: 10
+      },
+      {
+        name: "David Bentley",
+        appearances: 1
+      },
+      {
+        name: "Justin Hoyte",
+        appearances: 1
+      }
+    ]
   }
 ];

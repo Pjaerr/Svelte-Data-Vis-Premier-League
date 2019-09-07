@@ -362,5 +362,13 @@ export default [
   {
     name: "Lee Roche",
     regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "David Bentley",
+    regions: ["Cambridgeshire"]
+  },
+  {
+    name: "Justin Hoyte",
+    regions: ["Greater London"]
   }
 ];
