@@ -410,5 +410,17 @@ export default [
   {
     name: "Steven Watt",
     regions: ["Scotland"]
+  },
+  {
+    name: "Shaun Wright-Phillips",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Carlton Cole",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Jimmy Smith",
+    regions: ["Greater London"]
   }
 ];

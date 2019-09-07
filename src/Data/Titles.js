@@ -1371,5 +1371,112 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2005/2006",
+    winner: "Chelsea Fc",
+    players: [
+      {
+        name: "John Terry",
+        appearances: 36
+      },
+      {
+        name: "Frank Lampard",
+        appearances: 35
+      },
+      {
+        name: "Petr Čech",
+        appearances: 34
+      },
+      {
+        name: "Joe Cole",
+        appearances: 34
+      },
+      {
+        name: "William Gallas",
+        appearances: 34
+      },
+      {
+        name: "Michael Essien",
+        appearances: 31
+      },
+      {
+        name: "Claude Makélélé",
+        appearances: 31
+      },
+      {
+        name: "Hernán Crespo",
+        appearances: 30
+      },
+      {
+        name: "Didier Drogba",
+        appearances: 29
+      },
+      {
+        name: "Damien Duff",
+        appearances: 28
+      },
+      {
+        name: "Arjen Robben",
+        appearances: 28
+      },
+      {
+        name: "Shaun Wright-Phillips",
+        appearances: 27
+      },
+      {
+        name: "Eiður Guðjohnsen",
+        appearances: 26
+      },
+      {
+        name: "Del Horno",
+        appearances: 25
+      },
+      {
+        name: "Ricardo Carvalho",
+        appearances: 24
+      },
+      {
+        name: "Paulo Ferreira",
+        appearances: 21
+      },
+      {
+        name: "Geremi",
+        appearances: 15
+      },
+      {
+        name: "Robert Huth",
+        appearances: 13
+      },
+      {
+        name: "Carlton Cole",
+        appearances: 9
+      },
+      {
+        name: "Maniche",
+        appearances: 8
+      },
+      {
+        name: "Carlo Cudicini",
+        appearances: 4
+      },
+      {
+        name: "Glen Johnson",
+        appearances: 4
+      },
+      {
+        name: "Lassana Diarra",
+        appearances: 3
+      },
+      {
+        name: "Lenny Pidgeley",
+        appearances: 1
+      },
+      {
+        name: "Jimmy Smith",
+        appearances: 1
+      }
+    ]
   }
 ];
