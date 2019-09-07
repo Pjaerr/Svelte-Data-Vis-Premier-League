@@ -1692,5 +1692,144 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2008/2009",
+    winner: "Manchester United",
+    players: [
+      {
+        name: "Nemanja Vidić",
+        appearances: 34
+      },
+      {
+        name: "Cristiano Ronaldo",
+        appearances: 33
+      },
+      {
+        name: "Edwin van der Sar",
+        appearances: 33
+      },
+      {
+        name: "Dimitar Berbatov",
+        appearances: 31
+      },
+      {
+        name: "John O'Shea",
+        appearances: 30
+      },
+      {
+        name: "Wayne Rooney",
+        appearances: 30
+      },
+      {
+        name: "Carlos Tévez",
+        appearances: 29
+      },
+      {
+        name: "Michael Carrick",
+        appearances: 28
+      },
+      {
+        name: "Patrice Evra",
+        appearances: 28
+      },
+      {
+        name: "Ryan Giggs",
+        appearances: 28
+      },
+      {
+        name: "Darren Fletcher",
+        appearances: 26
+      },
+      {
+        name: "Ji-Sung Park",
+        appearances: 25
+      },
+      {
+        name: "Rio Ferdinand",
+        appearances: 24
+      },
+      {
+        name: "Paul Scholes",
+        appearances: 21
+      },
+      {
+        name: "Anderson",
+        appearances: 17
+      },
+      {
+        name: "Jonny Evans",
+        appearances: 17
+      },
+      {
+        name: "Gary Neville",
+        appearances: 16
+      },
+      {
+        name: "Rafael",
+        appearances: 16
+      },
+      {
+        name: "Nani",
+        appearances: 13
+      },
+      {
+        name: "Wes Brown",
+        appearances: 8
+      },
+      {
+        name: "Tomasz Kuszczak",
+        appearances: 4
+      },
+      {
+        name: "Federico Macheda",
+        appearances: 4
+      },
+      {
+        name: "Darron Gibson",
+        appearances: 3
+      },
+      {
+        name: "Rodrigo Possebon",
+        appearances: 3
+      },
+      {
+        name: "Danny Welbeck",
+        appearances: 3
+      },
+      {
+        name: "Richard Eckersley",
+        appearances: 2
+      },
+      {
+        name: "Ben Foster",
+        appearances: 2
+      },
+      {
+        name: "Owen Hargreaves",
+        appearances: 2
+      },
+      {
+        name: "Zoran Tošić",
+        appearances: 2
+      },
+      {
+        name: "Fraizer Campbell",
+        appearances: 1
+      },
+      {
+        name: "Ritchie De Laet",
+        appearances: 1
+      },
+      {
+        name: "Manucho",
+        appearances: 1
+      },
+      {
+        name: "Lee Martin",
+        appearances: 1
+      }
+    ]
   }
 ];

@@ -458,5 +458,25 @@ export default [
   {
     name: "Ben Foster",
     regions: ["Warwickshire"]
+  },
+  {
+    name: "Jonny Evans",
+    regions: ["Northern Ireland"]
+  },
+  {
+    name: "Darron Gibson",
+    regions: ["Northern Ireland"]
+  },
+  {
+    name: "Danny Welbeck",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Richard Eckersley",
+    regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Lee Martin",
+    regions: ["Somerset"]
   }
 ];
