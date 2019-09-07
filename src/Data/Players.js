@@ -542,5 +542,17 @@ export default [
   {
     name: "Jack Rodwell",
     regions: ["Lancashire", "Cheshire"]
+  },
+  {
+    name: "Gary Cahill",
+    regions: ["Derbyshire"]
+  },
+  {
+    name: "Ruben Loftus-Cheek",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Izzy Brown",
+    regions: ["Cambridgeshire"]
   }
 ];

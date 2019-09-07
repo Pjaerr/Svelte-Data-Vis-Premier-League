@@ -2390,5 +2390,112 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2014/2015",
+    winner: "Chelsea Fc",
+    players: [
+      {
+        name: "Eden Hazard",
+        appearances: 38
+      },
+      {
+        name: "Branislav Ivanović",
+        appearances: 38
+      },
+      {
+        name: "John Terry",
+        appearances: 38
+      },
+      {
+        name: "Gary Cahill",
+        appearances: 36
+      },
+      {
+        name: "Nemanja Matić",
+        appearances: 36
+      },
+      {
+        name: "Willian",
+        appearances: 36
+      },
+      {
+        name: "Cesc Fàbregas",
+        appearances: 34
+      },
+      {
+        name: "Thibaut Courtois",
+        appearances: 32
+      },
+      {
+        name: "Azpilicueta",
+        appearances: 29
+      },
+      {
+        name: "Didier Drogba",
+        appearances: 28
+      },
+      {
+        name: "Oscar",
+        appearances: 28
+      },
+      {
+        name: "Diego Costa",
+        appearances: 26
+      },
+      {
+        name: "Ramires",
+        appearances: 23
+      },
+      {
+        name: "Loïc Rémy",
+        appearances: 19
+      },
+      {
+        name: "John Mikel",
+        appearances: 18
+      },
+      {
+        name: "Filipe Luís",
+        appearances: 15
+      },
+      {
+        name: "Kurt Zouma",
+        appearances: 15
+      },
+      {
+        name: "André Schürrle",
+        appearances: 14
+      },
+      {
+        name: "Juan Cuadrado",
+        appearances: 12
+      },
+      {
+        name: "Petr Čech",
+        appearances: 7
+      },
+      {
+        name: "Ruben Loftus-Cheek",
+        appearances: 3
+      },
+      {
+        name: "Mohamed Salah",
+        appearances: 3
+      },
+      {
+        name: "Nathan Aké",
+        appearances: 1
+      },
+      {
+        name: "Izzy Brown",
+        appearances: 1
+      },
+      {
+        name: "Andreas Christensen",
+        appearances: 1
+      }
+    ]
   }
 ];
