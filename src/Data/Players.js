@@ -586,5 +586,25 @@ export default [
   {
     name: "Ola Aina",
     regions: ["Greater London"]
+  },
+  {
+    name: "Raheem Sterling",
+    regions: ["Greater London"]
+  },
+  {
+    name: "Kyle Walker",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Fabian Delph",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "John Stones",
+    regions: ["Yorkshire"]
+  },
+  {
+    name: "Phil Foden",
+    regions: ["Lancashire", "Cheshire"]
   }
 ];

@@ -2699,5 +2699,112 @@ export default [
         appearances: 1
       }
     ]
+  },
+
+  {
+    season: "2017/2018",
+    winner: "Manchester City",
+    players: [
+      {
+        name: "Kevin De Bruyne",
+        appearances: 37
+      },
+      {
+        name: "Ederson",
+        appearances: 36
+      },
+      {
+        name: "Bernardo Silva",
+        appearances: 35
+      },
+      {
+        name: "Fernandinho",
+        appearances: 34
+      },
+      {
+        name: "Nicolás Otamendi",
+        appearances: 34
+      },
+      {
+        name: "Raheem Sterling",
+        appearances: 33
+      },
+      {
+        name: "Leroy Sané",
+        appearances: 32
+      },
+      {
+        name: "Kyle Walker",
+        appearances: 32
+      },
+      {
+        name: "İlkay Gündoğan",
+        appearances: 30
+      },
+      {
+        name: "David Silva",
+        appearances: 29
+      },
+      {
+        name: "Gabriel Jesus",
+        appearances: 29
+      },
+      {
+        name: "Kun Agüero",
+        appearances: 25
+      },
+      {
+        name: "Danilo",
+        appearances: 23
+      },
+      {
+        name: "Fabian Delph",
+        appearances: 22
+      },
+      {
+        name: "John Stones",
+        appearances: 18
+      },
+      {
+        name: "Vincent Kompany",
+        appearances: 17
+      },
+      {
+        name: "Yaya Touré",
+        appearances: 10
+      },
+      {
+        name: "Aymeric Laporte",
+        appearances: 9
+      },
+      {
+        name: "Eliaquim Mangala",
+        appearances: 9
+      },
+      {
+        name: "Oleksandr Zinchenko",
+        appearances: 8
+      },
+      {
+        name: "Benjamin Mendy",
+        appearances: 7
+      },
+      {
+        name: "Brahim Díaz",
+        appearances: 5
+      },
+      {
+        name: "Phil Foden",
+        appearances: 5
+      },
+      {
+        name: "Claudio Bravo",
+        appearances: 3
+      },
+      {
+        name: "Lukas Nmecha",
+        appearances: 2
+      }
+    ]
   }
 ];
