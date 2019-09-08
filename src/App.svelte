@@ -1,7 +1,10 @@
 <script>
+  import MapContainer from "./Components/MapContainer.svelte";
   import Regions from "./Data/Regions.js";
 </script>
 
-{#each Regions as { name }}
-  <h1>{name}</h1>
-{/each}
+<MapContainer>
+  {#each Regions as { name, svgPath }}
+    <path d={svgPath} />
+  {/each}
+</MapContainer>
