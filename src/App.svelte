@@ -8,7 +8,7 @@
   {#each Regions as { name, svgPath }}
     <MapRegion
       {svgPath}
-      fillColour="red"
+      fillColour="#333"
       strokeColour="white"
       strokeWidth="1px" />
   {/each}
