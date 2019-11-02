@@ -6,22 +6,20 @@
   export let strokeColour = "#fff";
   export let strokeWidth = "1px";
 
-  let animationEnded = false;
+  let transitionEnded = false;
 </script>
 
 <style>
   .path {
-    transition: fill 0.3s ease-in;
+    transition: fill 0.5s ease;
   }
 </style>
 
 <path
+  transition:draw={{ duration: 1500 }}
+  on:introend={() => (transitionEnded = true)}
   d={svgPath}
   class="path"
-  transition:draw={{ duration: 2000 }}
-  on:introend={() => {
-    animationEnded = true;
-  }}
-  fill={animationEnded ? fillColour : strokeColour}
-  stroke={animationEnded ? strokeColour : fillColour}
+  fill={transitionEnded ? fillColour : strokeColour}
+  stroke={transitionEnded ? strokeColour : fillColour}
   style="stroke-width: {strokeWidth}" />
