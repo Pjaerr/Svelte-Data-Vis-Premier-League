@@ -13,9 +13,14 @@
   .path {
     transition: fill 0.5s ease;
   }
+
+  .path:hover {
+    fill: red;
+  }
 </style>
 
 <path
+  on:click
   transition:draw={{ duration: 1500 }}
   on:introend={() => (transitionEnded = true)}
   d={svgPath}

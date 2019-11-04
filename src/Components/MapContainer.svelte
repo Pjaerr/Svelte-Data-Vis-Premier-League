@@ -2,8 +2,8 @@
   import { onMount } from "svelte";
 
   let svg;
-  let width = "100%";
-  let height = "100%";
+  let width = "0";
+  let height = "0";
 
   onMount(() => {
     let svgBoundingBox = svg.getBBox();
@@ -16,8 +16,7 @@
 <svg
   viewBox="0 0 {width}
   {height}"
-  {width}
-  height={window.innerHeight}
+  height={window.innerHeight - 10}
   bind:this={svg}>
   <g class="regions">
     <slot />
