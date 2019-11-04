@@ -13,13 +13,12 @@
   });
 </script>
 
-<style>
-  .regions {
-    transform: scale(0.75);
-  }
-</style>
-
-<svg {width} {height} bind:this={svg}>
+<svg
+  viewBox="0 0 {width}
+  {height}"
+  {width}
+  height={window.innerHeight}
+  bind:this={svg}>
   <g class="regions">
     <slot />
   </g>
