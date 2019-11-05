@@ -493,27 +493,27 @@ export default [
   },
   {
     name: "Chris Smalling",
-    region: ["Greater London"]
+    regions: ["Greater London"]
   },
   {
     name: "Michael Owen",
-    region: ["Cheshire"]
+    regions: ["Cheshire"]
   },
   {
     name: "Joe Hart",
-    region: ["Shropshire"]
+    regions: ["Shropshire"]
   },
   {
     name: "Gareth Barry",
-    region: ["Sussex"]
+    regions: ["Sussex"]
   },
   {
     name: "Joleon Lescott",
-    region: ["Staffordshire", "Worcestershire", "Warwickshire"]
+    regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
   },
   {
     name: "Micah Richards",
-    region: ["Staffordshire", "Worcestershire", "Warwickshire"]
+    regions: ["Staffordshire", "Worcestershire", "Warwickshire"]
   },
   {
     name: "Adam Johnson",
