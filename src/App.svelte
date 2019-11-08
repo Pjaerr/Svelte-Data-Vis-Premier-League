@@ -8,6 +8,8 @@
   import RegionInformation from "./Components/RegionInformation.svelte";
   import Regions from "./Data/Regions.js";
 
+  import { NUMBER_OF_PLAYERS } from "./Data/Data.js";
+
   let activeRegion;
   let title = "Premier League: UK & Ireland Contribution";
 </script>

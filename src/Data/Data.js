@@ -28,11 +28,6 @@
  *              ]
  *          }
  *
- * 2. Write the functionality that, given 2+ arrays of objects with an appearances property, determines
- *    which array is weighted the highest. Should return an array of these arrays (could be joint)
- *
- * 3. Store the Players.length as a constant to be exported
- *
  * 4. Tally up how many players have won the premier league overall and then map the number
  *    of UK and Ireland vs. Foreign players on a 0, 100 range.
  *
@@ -47,6 +42,11 @@
  *    accumulated total is the player who has contributed the most. Export this as a constant.
  */
 
+import Players from "./Players";
+
+//Constants
+export const NUMBER_OF_PLAYERS = Players.length;
+
 /**
  *  Calculates which, out of a collection of arrays of objects with an appearance property,
  * has the highest number of appearances by adding them all together and returning the array
@@ -54,23 +54,22 @@
  * @param {[[{appearances: number}]]} arrays
  * @returns {[{accumulatedWeight: number, array: []}]} An array containing an object for each array alongside the accumulated weighting
  */
-function getHighestAccumulatedAppearances(arrays) {
-  /** Store each array alongside their accumulated weight sorted by highested
-   *  accumulated weight.*/
+export function getHighestAccumulatedAppearances(arrays) {
+  //Store each array in an object alongside their accumulated appearances
   const accumulatedArrays = arrays
     .map(array => {
-      let accumulatedWeight = 0;
+      let accumulatedAppearances = 0;
 
       array.forEach(obj => {
-        accumulatedWeight += parseInt(obj.appearances);
+        accumulatedAppearances += parseInt(obj.appearances);
       });
 
       return {
         array,
-        accumulatedWeight
+        accumulatedAppearances
       };
     })
-    .sort((a, b) => b.accumulatedWeight - a.accumulatedWeight);
+    .sort((a, b) => b.accumulatedAppearances - a.accumulatedAppearances);
 
   /** Return the highest weighted array, account for multiple arrays having the same
    * accumulated weighting and so multiple need to be returned.*/
@@ -78,8 +77,8 @@ function getHighestAccumulatedAppearances(arrays) {
 
   for (let i = 0; i < accumulatedArrays.length; i++) {
     if (
-      accumulatedArrays[i].accumulatedWeight !==
-      accumulatedArrays[i + 1].accumulatedWeight
+      accumulatedArrays[i].accumulatedAppearances !==
+      accumulatedArrays[i + 1].accumulatedAppearances
     ) {
       i = accumulatedArrays.length;
     } else {
@@ -89,8 +88,6 @@ function getHighestAccumulatedAppearances(arrays) {
 
   return highestWeightedArrays;
 }
-
-export default getHighestAccumulatedAppearances;
 
 // ! Experimental Code
 // import Players from "./Players.js";
