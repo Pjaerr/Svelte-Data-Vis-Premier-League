@@ -15,7 +15,7 @@
   }
 
   .path:hover {
-    fill: red;
+    fill: #333;
   }
 </style>
 

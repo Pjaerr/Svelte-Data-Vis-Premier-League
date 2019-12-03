@@ -8,9 +8,7 @@
 
   import { getRegionData } from "./Data/Data.js";
 
-  let activeRegion = {
-    name: "No Region"
-  };
+  let activeRegion = "No region selected";
   let title = "Premier League: UK & Ireland Contribution";
 </script>
 
@@ -35,15 +33,16 @@
 </style>
 
 <main class="app">
+  <h1>{activeRegion}</h1>
   <div class="map-container">
     <MapContainer>
       {#each Regions as { name, svgPath }}
         <MapRegion
           on:click={() => {
-            activeRegion = getRegionData(name);
+            activeRegion = name;
           }}
           {svgPath}
-          fillColour={getRegionData(name).colour}
+          fillColour={activeRegion === name ? '#333' : getRegionData(name).colour}
           strokeColour="white"
           strokeWidth="1px" />
       {/each}

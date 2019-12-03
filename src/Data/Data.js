@@ -24,16 +24,16 @@ import Titles from "./Titles";
 
 */
 const regions = Regions.map(region => {
-  //Create the initial region object
+  //Create the initial new region object
   const newRegionObject = {
     name: region.name,
     players: [],
     appearances: 0
   };
 
-  //For each of the players
+  //For each of the players in the array exported from Players.js
   for (const player of Players) {
-    //If the player is from this region
+    //If the player is from the current region
     if (player.regions.includes(region.name)) {
       //Create the initial player object
       const playerObject = {
@@ -81,20 +81,36 @@ for (const region of regions) {
   }
 }
 
+const rgbValues = [
+  "rgb(93,38,193)",
+  "rgb(92,80,172)",
+  "rgb(91,108,158)",
+  "rgb(90,137,143)",
+  "rgb(90,151,136)",
+  "rgb(90,165,129)",
+  "rgb(89,179,122)",
+  "rgb(89,193,115)"
+];
+
 //Map the number of appearances (0 to highestNumberOfAppearances) to an RGB value (50 to 255)
 for (const region of regions) {
-  let greenValue = Math.round(
-    ((region.appearances - 0) / (highestNumberOfAppearances - 0)) * (255 - 30) +
-      30
+  const index = Math.round(
+    ((region.appearances - 0) / (highestNumberOfAppearances - 0)) *
+      (rgbValues.length - 1) +
+      0
   );
 
-  region.colour = `rgb(0, ${greenValue}, 0)`;
+  region.colour = rgbValues[index];
+
+  console.log(region.colour);
+  console.log(index);
 }
 
 /* Step 3:
   Export a function that takes a region name and will return the region for that name.
 */
 export const getRegionData = regionName => {
+  //! This could be a filter/reduce any sort of array function that gives us 1 value.
   let regionToReturn;
 
   for (const region of regions) {
