@@ -81,44 +81,41 @@ for (const region of regions) {
   }
 }
 
-const rgbValues = [
-  "rgb(93,38,193)",
-  "rgb(92,80,172)",
-  "rgb(91,108,158)",
-  "rgb(90,137,143)",
-  "rgb(90,151,136)",
-  "rgb(90,165,129)",
-  "rgb(89,179,122)",
-  "rgb(89,193,115)"
+const colourPalette = [
+  "#38003c",
+  "#2a404e",
+  "#274c52",
+  "#265053",
+  "#255454",
+  "#245956",
+  "#226659",
+  "#1f735d",
+  "#1c8060",
+  "#198c64",
+  "#169968",
+  "#14a66b",
+  "#11b26f",
+  "#0ebf73",
+  "#0bcc76",
+  "#08d97a",
+  "#06e67e",
+  "#03f281",
+  "#00ff85"
 ];
 
 //Map the number of appearances (0 to highestNumberOfAppearances) to an RGB value (50 to 255)
 for (const region of regions) {
   const index = Math.round(
-    ((region.appearances - 0) / (highestNumberOfAppearances - 0)) *
-      (rgbValues.length - 1) +
-      0
+    (region.appearances / highestNumberOfAppearances) *
+      (colourPalette.length - 1)
   );
 
-  region.colour = rgbValues[index];
-
-  console.log(region.colour);
-  console.log(index);
+  region.colour = colourPalette[index];
 }
 
 /* Step 3:
   Export a function that takes a region name and will return the region for that name.
 */
 export const getRegionData = regionName => {
-  //! This could be a filter/reduce any sort of array function that gives us 1 value.
-  let regionToReturn;
-
-  for (const region of regions) {
-    if (region.name === regionName) {
-      regionToReturn = region;
-      break;
-    }
-  }
-
-  return regionToReturn;
+  return regions.filter(region => region.name === regionName)[0];
 };
