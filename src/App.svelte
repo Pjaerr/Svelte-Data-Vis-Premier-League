@@ -34,6 +34,7 @@
 
 <main class="app">
   <h1>{activeRegion}</h1>
+  <RegionInformation region={getRegionData('Yorkshire')} />
   <div class="map-container">
     <MapContainer>
       {#each Regions as { name, svgPath }}

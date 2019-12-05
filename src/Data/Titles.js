@@ -475,7 +475,7 @@ export default [
 
   {
     season: "1997/1998",
-    winner: "Arsenal Fc",
+    winner: "Arsenal FC",
     players: [
       {
         name: "Nigel Winterburn",
@@ -935,7 +935,7 @@ export default [
 
   {
     season: "2001/2002",
-    winner: "Arsenal Fc",
+    winner: "Arsenal FC",
     players: [
       {
         name: "Patrick Vieira",
@@ -1153,7 +1153,7 @@ export default [
 
   {
     season: "2003/2004",
-    winner: "Arsenal Fc",
+    winner: "Arsenal FC",
     players: [
       {
         name: "Jens Lehmann",
@@ -1248,7 +1248,7 @@ export default [
 
   {
     season: "2004/2005",
-    winner: "Chelsea Fc",
+    winner: "Chelsea FC",
     players: [
       {
         name: "Eiður Guðjohnsen",
@@ -1375,7 +1375,7 @@ export default [
 
   {
     season: "2005/2006",
-    winner: "Chelsea Fc",
+    winner: "Chelsea FC",
     players: [
       {
         name: "John Terry",
@@ -1835,7 +1835,7 @@ export default [
 
   {
     season: "2009/2010",
-    winner: "Chelsea Fc",
+    winner: "Chelsea FC",
     players: [
       {
         name: "John Terry",
@@ -2394,7 +2394,7 @@ export default [
 
   {
     season: "2014/2015",
-    winner: "Chelsea Fc",
+    winner: "Chelsea FC",
     players: [
       {
         name: "Eden Hazard",
@@ -2600,7 +2600,7 @@ export default [
 
   {
     season: "2016/2017",
-    winner: "Chelsea Fc",
+    winner: "Chelsea FC",
     players: [
       {
         name: "Azpilicueta",
