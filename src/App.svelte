@@ -4,9 +4,9 @@
   import MapContainer from "./Components/MapContainer.svelte";
   import MapRegion from "./Components/MapRegion.svelte";
   import RegionInformation from "./Components/RegionInformation.svelte";
-  import Regions from "./Data/Regions.js";
+  import regions from "./Data/regionPaths.js";
 
-  import { getRegionData } from "./Data/Data.js";
+  import getRegionData from "./Data/getRegionData.js";
 
   let activeRegion = "No region selected";
   let title = "Premier League: UK & Ireland Contribution";
@@ -34,10 +34,10 @@
 
 <main class="app">
   <h1>{activeRegion}</h1>
-  <RegionInformation region={getRegionData('Yorkshire')} />
+  <!-- <RegionInformation region={getRegionData('Yorkshire')} /> -->
   <div class="map-container">
     <MapContainer>
-      {#each Regions as { name, svgPath }}
+      {#each regions as { name, svgPath }}
         <MapRegion
           on:click={() => {
             activeRegion = name;
