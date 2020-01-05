@@ -38,10 +38,16 @@ for (const region of data) {
       (colourPalette.length - 1)
   );
 
-  region.colour = colourPalette[index];
+  if (region.overallAppearances <= 0) {
+    region.colour = "rgba(51, 51, 51, 0.5)";
+  } else {
+    region.colour = colourPalette[index];
+  }
 }
 
 //Export a function that takes a region name and will return the region for that name.
-export default getRegionData = regionName => {
+const getRegionData = regionName => {
   return data.filter(region => region.name === regionName)[0];
 };
+
+export default getRegionData;

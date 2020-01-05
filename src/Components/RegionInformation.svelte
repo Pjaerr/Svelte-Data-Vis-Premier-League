@@ -1,24 +1,11 @@
 <script>
-  /**
-   * {
-        name: string,
-        players: [
-            {
-                name: string,
-                seasons: [
-                    {
-                        year: string,
-                        team: string,
-                        appearances: number
-                    }
-                ]
-            }
-        ],
-        appearances: number
-    }
-   * 
-   * */
+  import { slide } from "svelte/transition";
+  import { quintInOut } from "svelte/easing";
+
+  import Player from "./Player.svelte";
+
   export let region;
+  export let onClose;
 
   const players = region.players.sort((player1, player2) => {
     let player1Appearances = 0;
@@ -36,91 +23,132 @@
 </script>
 
 <style>
-  .container {
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
+  .modal-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #333;
+    opacity: 0.5;
+    z-index: 5;
+  }
 
-    position: absolute;
+  .container {
+    position: fixed;
     z-index: 10;
-    top: 30%;
-    width: 100%;
-    max-height: 600px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .modal {
+    padding: 10px;
+    overflow-y: scroll;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.25);
+    height: 420px;
+  }
+
+  @media (min-width: 400px) {
+    .modal {
+      height: 520px;
+    }
+  }
+
+  @media (min-width: 820px) {
+    .container {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .modal {
+      width: 820px;
+      height: 620px;
+    }
   }
 
   .header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    margin-bottom: 20px;
   }
 
-  .back-btn {
-    flex: 1;
+  .header-back-button {
+    position: absolute;
   }
 
-  .header > h2 {
-    text-align: center;
-    flex: 16;
-  }
-
-  .body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .players {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .player {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .header-back-button > button {
+    width: 32px;
+    height: 32px;
+    padding: 0;
     background: #f5f5f5;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
 
-  .player > p {
-    text-align: center;
+  .header-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header-title > h1 {
+    margin: 0;
+    font-size: 1.4em;
+  }
+
+  .body-players {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body-players > h2 {
+    font-size: 1.2em;
   }
 </style>
 
-<div class="container">
-  <div class="header">
-    <button class="back-btn">--</button>
-    <h2>{region.name}</h2>
-  </div>
-  <div class="body">
-    <div class="stats">
-      Number of appearances by players from this region during winning seasons:
-      <b>{region.appearances}</b>
-    </div>
-    <div class="players">
-      <h3>Players</h3>
-      {#each players as { name, seasons }}
-        <div class="player">
-          <h4>{name}</h4>
-          {#each seasons.reverse() as { year, team, appearances }}
-            <p>
-              <b>{year}</b>
-              with
-              <b>{appearances}</b>
-              appearances for
-              <b>{team}</b>
-            </p>
+<div class="modal-overlay" />
+<section
+  class="container"
+  transition:slide={{ duration: 200, easing: quintInOut }}>
+  <div class="modal">
+    <header class="header">
+      <div class="header-back-button">
+        <button on:click={onClose}>
+          <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path
+              fill="#333"
+              d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" />
+          </svg>
+        </button>
+      </div>
+      <div class="header-title">
+        <h1>{region.name}</h1>
+      </div>
+    </header>
+    <section class="body">
+      {#if region.overallAppearances > 0}
+        <div class="body-stats">
+          Number of appearances by players from this region during winning
+          seasons:
+          <b>{region.overallAppearances}</b>
+        </div>
+
+        <div class="body-players">
+          <h2>Players</h2>
+          {#each players as { name, seasons }}
+            <Player {name} {seasons} />
           {/each}
         </div>
-      {/each}
-    </div>
+      {:else}
+        <div class="body-stats">
+          This region hasn't contributed to the English Premier League 😢
+        </div>
+      {/if}
+    </section>
   </div>
-</div>
+</section>
