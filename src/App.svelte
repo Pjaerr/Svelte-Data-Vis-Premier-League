@@ -39,7 +39,7 @@
 </style>
 
 <main class="app">
-  {#if activeRegion !== undefined}
+  {#if activeRegion}
     <RegionInformation
       region={getRegionData(activeRegion)}
       onClose={() => {

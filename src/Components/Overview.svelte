@@ -51,7 +51,7 @@
   }
 </style>
 
-<div class="container" transition:blur>
+<div class="container" transition:blur|local>
   <h1>English Premier League</h1>
   <p>
     The Premier League, often referred to as the English Premier League or the
